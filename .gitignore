@@ -1,0 +1,51 @@
+# Dependencies and generated packages
+node_modules/
+dist/
+releases/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+artifacts/
+outputs/
+.cache/
+case-tracker-smoke-*/
+.case-tracker-smoke-*/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Logs and local tooling
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+
+# Never commit user ledgers, recovery points or exports
+case-tracker-data.json
+case-tracker-data.json.*
+backups/
+legacy-protected/
+法律案件台账备份-*.json
+法律案件清单-*.csv
+*-台账备份-*.json
+*-案件清单-*.csv
+*.zip

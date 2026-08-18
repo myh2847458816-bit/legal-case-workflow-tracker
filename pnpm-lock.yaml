@@ -1,0 +1,467 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@electron/packager':
+        specifier: 20.3.0
+        version: 20.3.0
+      electron:
+        specifier: 43.4.0
+        version: 43.4.0
+      plist:
+        specifier: 5.0.0
+        version: 5.0.0
+
+packages:
+
+  '@electron-internal/extract-zip@1.0.5':
+    resolution: {integrity: sha512-+bqFCP98pLI0Tt0XQo1TmlXtwjWchISndDOxCkEcIuUgXWpBnLyRI+2DU+mesvnMMX6L1XDqYNA0lXNDHd/yiA==}
+    engines: {node: '>=22.12.0'}
+
+  '@electron/asar@4.2.1':
+    resolution: {integrity: sha512-rGyEe7iy52zxiWuihV/h/AqQrFkx7YnUUJKW1bdufVDHCzIMP/XDrDI/NOzv/LLtzt3NduAzNa475WRmRnmswQ==}
+    engines: {node: '>=22.12.0'}
+    hasBin: true
+
+  '@electron/get@5.1.0':
+    resolution: {integrity: sha512-3kSBtG8ObcTVfXanm5vVJ6UnBLEVmVsRk1M+vGqCuMBV+XLCbJYuWQful+yIy0GQDsSlK0kHEriEHn7SPk4EnA==}
+    engines: {node: '>=22.12.0'}
+
+  '@electron/notarize@3.1.1':
+    resolution: {integrity: sha512-uQQSlOiJnqRkTL1wlEBAxe90nVN/Fc/hEmk0bqpKk8nKjV1if/tXLHKUPePtv9Xsx90PtZU8aidx5lAiOpjkQQ==}
+    engines: {node: '>= 22.12.0'}
+
+  '@electron/osx-sign@2.6.0':
+    resolution: {integrity: sha512-XiJHXekSfeQpk11d9uWZ9PtDm4ADIWvcrSTRJocaDgA46t1okxrQ1keL8rthURJX6AP3DDFnzrouiP6Q5qoHYA==}
+    engines: {node: '>=22.12.0'}
+    hasBin: true
+
+  '@electron/packager@20.3.0':
+    resolution: {integrity: sha512-3MvgJgy6YJ5ti0oGGBKrWKdYwpTaoRrhranMDgHSQ6i5t56yZV9IRDyoXTuqBp97LiKqnZeAMe2wTcF/9+fP5g==}
+    engines: {node: '>= 22.12.0'}
+    hasBin: true
+
+  '@electron/universal@3.0.6':
+    resolution: {integrity: sha512-MonS1kfkZdSEkLZI0pdR/TCx8ecxwRSFm7sORfwIkDI9UaIbHnk4Mgeqq+Ob9qDQRV8LZ9+hHCmimpA9BRcNxw==}
+    engines: {node: '>=22.12.0'}
+
+  '@electron/windows-sign@2.0.6':
+    resolution: {integrity: sha512-ESWgNkFsXFH06I5EB2uHv3hmZA3yF4j9GTB77W74x3b5KZNItxggNzuADw41HUy6mhnC2K+E2mT0Xgc4YKu3IQ==}
+    engines: {node: '>=22.12.0'}
+    hasBin: true
+
+  '@malept/cross-spawn-promise@2.0.0':
+    resolution: {integrity: sha512-1DpKU0Z5ThltBwjNySMC14g0CkbyhCaz9FkhxqNsZI6uAPJXFS8cMXlBKo26FJ8ZuW6S9GCMcR9IO5k2X5/9Fg==}
+    engines: {node: '>= 12.13.0'}
+
+  '@types/node@24.13.3':
+    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
+
+  '@xmldom/xmldom@0.8.13':
+    resolution: {integrity: sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==}
+    engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
+
+  '@xmldom/xmldom@0.9.11':
+    resolution: {integrity: sha512-tW8bcK3hsG0/uqSnNz6TK4BkcuZSezoU7DlnYssILmZDktPnSHHuDJJFM0AJv+13gz2r0iGdrj6qqKeUnxXEDg==}
+    engines: {node: '>=14.6'}
+
+  balanced-match@4.0.4:
+    resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
+    engines: {node: 18 || 20 || >=22}
+
+  base64-js@1.5.1:
+    resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+
+  brace-expansion@5.0.9:
+    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
+    engines: {node: 20 || >=22}
+
+  commander@9.5.0:
+    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
+    engines: {node: ^12.20.0 || >=14}
+
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
+    engines: {node: '>= 8'}
+
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  electron@43.4.0:
+    resolution: {integrity: sha512-3qxGF0CeQbiox5oWV1JlbWGQ1VerbmDhTFqW4sJ8h7uqTHniFYPObXJcDna0DMh32et0fFyKzz0YY8lJv3t5jg==}
+    engines: {node: '>= 22.12.0'}
+    hasBin: true
+
+  env-paths@3.0.0:
+    resolution: {integrity: sha512-dtJUTepzMW3Lm/NPxRf3wP4642UWhjL2sQxc+ym2YMj1m/H2zDNQOlezafzkHwn6sMstjHTwG6iQQsctDW/b1A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  err-code@2.0.3:
+    resolution: {integrity: sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==}
+
+  filename-reserved-regex@3.0.0:
+    resolution: {integrity: sha512-hn4cQfU6GOT/7cFHXBqeBg2TbrMBgdD0kcjLhvSQYYwm3s4B6cjvBfb7nBALJLAXqmU5xajSa7X2NnUud/VCdw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  filenamify@6.0.0:
+    resolution: {integrity: sha512-vqIlNogKeyD3yzrm0yhRMQg8hOVwYcYRfjEoODd49iCprMn4HL85gK3HcykQE53EPIpX3HcAbGA5ELQv216dAQ==}
+    engines: {node: '>=16'}
+
+  flora-colossus@3.0.2:
+    resolution: {integrity: sha512-Jk78K/Tzt6saxQPGChlJw69xuFGpWyTSAS8EdU0h/FyXwD2K46yNOXmo6nRHcZ9ooekyBAzMkwmiGNt7wOC5zg==}
+    engines: {node: '>=22.12.0'}
+
+  galactus@2.0.2:
+    resolution: {integrity: sha512-HmKyTFGomdAchz4umx8MwBnrnfFmdpwiTyGA4ZOF7rya2Lmgbc9qate4yweInL+0gUBVImhaz12SBGpW3SY4Yg==}
+    engines: {node: '>=22.12.0'}
+
+  glob@13.0.6:
+    resolution: {integrity: sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==}
+    engines: {node: 18 || 20 || >=22}
+
+  graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
+  isbinaryfile@4.0.10:
+    resolution: {integrity: sha512-iHrqe5shvBUcFbmZq9zOQHBoeOhZJu6RQGrDpBgenUm/Am+F3JM2MgQj+rK3Z601fzrL5gLZWtAPH2OBaSVcyw==}
+    engines: {node: '>= 8.0.0'}
+
+  isexe@2.0.0:
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+
+  junk@4.0.1:
+    resolution: {integrity: sha512-Qush0uP+G8ZScpGMZvHUiRfI0YBWuB3gVBYlI0v0vvOJt5FLicco+IkP0a50LqTTQhmts/m6tP5SWE+USyIvcQ==}
+    engines: {node: '>=12.20'}
+
+  lru-cache@11.5.2:
+    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
+    engines: {node: 20 || >=22}
+
+  minimatch@10.2.6:
+    resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
+    engines: {node: 18 || 20 || >=22}
+
+  minipass@7.1.3:
+    resolution: {integrity: sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==}
+    engines: {node: '>=16 || 14 >=14.17'}
+
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
+  path-key@3.1.1:
+    resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
+    engines: {node: '>=8'}
+
+  path-scurry@2.0.2:
+    resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
+    engines: {node: 18 || 20 || >=22}
+
+  pe-library@1.0.1:
+    resolution: {integrity: sha512-nh39Mo1eGWmZS7y+mK/dQIqg7S1lp38DpRxkyoHf0ZcUs/HDc+yyTjuOtTvSMZHmfSLuSQaX945u05Y2Q6UWZg==}
+    engines: {node: '>=14', npm: '>=7'}
+
+  plist@3.1.0:
+    resolution: {integrity: sha512-uysumyrvkUX0rX/dEVqt8gC3sTBzd4zoWfLeS29nb53imdaXVvLINYXTI2GNqzaMuvacNx4uJQ8+b3zXR0pkgQ==}
+    engines: {node: '>=10.4.0'}
+
+  plist@5.0.0:
+    resolution: {integrity: sha512-20N+g1DvMm/DFRbsvER7tT4wDryq0WunK7VMkDaiJcKNapAnUMkTsAnacFYf8n420F4Hf6/hefgmJRkMb1M0fg==}
+    engines: {node: '>=18'}
+
+  postject@1.0.0-alpha.6:
+    resolution: {integrity: sha512-b9Eb8h2eVqNE8edvKdwqkrY6O7kAwmI8kcnBv1NScolYJbo59XUF0noFq+lxbC1yN20bmC0WBEbDC5H/7ASb0A==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+
+  progress@2.0.3:
+    resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
+    engines: {node: '>=0.4.0'}
+
+  promise-retry@2.0.1:
+    resolution: {integrity: sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==}
+    engines: {node: '>=10'}
+
+  resedit@2.0.3:
+    resolution: {integrity: sha512-oTeemxwoMuxxTYxXUwjkrOPfngTQehlv0/HoYFNkB4uzsP1Un1A9nI8JQKGOFkxpqkC7qkMs0lUsGrvUlbLNUA==}
+    engines: {node: '>=14', npm: '>=7'}
+
+  retry@0.12.0:
+    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
+    engines: {node: '>= 4'}
+
+  semver@7.8.5:
+    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  shebang-command@2.0.0:
+    resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
+    engines: {node: '>=8'}
+
+  shebang-regex@3.0.0:
+    resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
+    engines: {node: '>=8'}
+
+  sumchecker@3.0.1:
+    resolution: {integrity: sha512-MvjXzkz/BOfyVDkG0oFOtBxHX2u3gKbMHIF/dXblZsgD3BWOFLmHovIpZY7BykJdAjcqRCBi1WYBNdEC9yI7vg==}
+    engines: {node: '>= 8.0'}
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
+  undici@7.29.0:
+    resolution: {integrity: sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==}
+    engines: {node: '>=20.18.1'}
+
+  which@2.0.2:
+    resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
+    engines: {node: '>= 8'}
+    hasBin: true
+
+  xmlbuilder@15.1.1:
+    resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
+    engines: {node: '>=8.0'}
+
+  yargs-parser@22.0.0:
+    resolution: {integrity: sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=23}
+
+snapshots:
+
+  '@electron-internal/extract-zip@1.0.5': {}
+
+  '@electron/asar@4.2.1':
+    dependencies:
+      glob: 13.0.6
+      minimatch: 10.2.6
+
+  '@electron/get@5.1.0':
+    dependencies:
+      debug: 4.4.3
+      env-paths: 3.0.0
+      graceful-fs: 4.2.11
+      progress: 2.0.3
+      semver: 7.8.5
+      sumchecker: 3.0.1
+    optionalDependencies:
+      undici: 7.29.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@electron/notarize@3.1.1':
+    dependencies:
+      debug: 4.4.3
+      promise-retry: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@electron/osx-sign@2.6.0':
+    dependencies:
+      debug: 4.4.3
+      isbinaryfile: 4.0.10
+      plist: 3.1.0
+      semver: 7.8.5
+    transitivePeerDependencies:
+      - supports-color
+
+  '@electron/packager@20.3.0':
+    dependencies:
+      '@electron-internal/extract-zip': 1.0.5
+      '@electron/asar': 4.2.1
+      '@electron/get': 5.1.0
+      '@electron/notarize': 3.1.1
+      '@electron/osx-sign': 2.6.0
+      '@electron/universal': 3.0.6
+      '@electron/windows-sign': 2.0.6
+      '@malept/cross-spawn-promise': 2.0.0
+      debug: 4.4.3
+      filenamify: 6.0.0
+      galactus: 2.0.2
+      graceful-fs: 4.2.11
+      junk: 4.0.1
+      plist: 3.1.0
+      resedit: 2.0.3
+      semver: 7.8.5
+      yargs-parser: 22.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@electron/universal@3.0.6':
+    dependencies:
+      '@electron/asar': 4.2.1
+      debug: 4.4.3
+      plist: 3.1.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@electron/windows-sign@2.0.6':
+    dependencies:
+      debug: 4.4.3
+      graceful-fs: 4.2.11
+      postject: 1.0.0-alpha.6
+    transitivePeerDependencies:
+      - supports-color
+
+  '@malept/cross-spawn-promise@2.0.0':
+    dependencies:
+      cross-spawn: 7.0.6
+
+  '@types/node@24.13.3':
+    dependencies:
+      undici-types: 7.18.2
+
+  '@xmldom/xmldom@0.8.13': {}
+
+  '@xmldom/xmldom@0.9.11': {}
+
+  balanced-match@4.0.4: {}
+
+  base64-js@1.5.1: {}
+
+  brace-expansion@5.0.9:
+    dependencies:
+      balanced-match: 4.0.4
+
+  commander@9.5.0: {}
+
+  cross-spawn@7.0.6:
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+
+  debug@4.4.3:
+    dependencies:
+      ms: 2.1.3
+
+  electron@43.4.0:
+    dependencies:
+      '@electron-internal/extract-zip': 1.0.5
+      '@electron/get': 5.1.0
+      '@types/node': 24.13.3
+    transitivePeerDependencies:
+      - supports-color
+
+  env-paths@3.0.0: {}
+
+  err-code@2.0.3: {}
+
+  filename-reserved-regex@3.0.0: {}
+
+  filenamify@6.0.0:
+    dependencies:
+      filename-reserved-regex: 3.0.0
+
+  flora-colossus@3.0.2:
+    dependencies:
+      debug: 4.4.3
+    transitivePeerDependencies:
+      - supports-color
+
+  galactus@2.0.2:
+    dependencies:
+      debug: 4.4.3
+      flora-colossus: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
+
+  glob@13.0.6:
+    dependencies:
+      minimatch: 10.2.6
+      minipass: 7.1.3
+      path-scurry: 2.0.2
+
+  graceful-fs@4.2.11: {}
+
+  isbinaryfile@4.0.10: {}
+
+  isexe@2.0.0: {}
+
+  junk@4.0.1: {}
+
+  lru-cache@11.5.2: {}
+
+  minimatch@10.2.6:
+    dependencies:
+      brace-expansion: 5.0.9
+
+  minipass@7.1.3: {}
+
+  ms@2.1.3: {}
+
+  path-key@3.1.1: {}
+
+  path-scurry@2.0.2:
+    dependencies:
+      lru-cache: 11.5.2
+      minipass: 7.1.3
+
+  pe-library@1.0.1: {}
+
+  plist@3.1.0:
+    dependencies:
+      '@xmldom/xmldom': 0.8.13
+      base64-js: 1.5.1
+      xmlbuilder: 15.1.1
+
+  plist@5.0.0:
+    dependencies:
+      '@xmldom/xmldom': 0.9.11
+      xmlbuilder: 15.1.1
+
+  postject@1.0.0-alpha.6:
+    dependencies:
+      commander: 9.5.0
+
+  progress@2.0.3: {}
+
+  promise-retry@2.0.1:
+    dependencies:
+      err-code: 2.0.3
+      retry: 0.12.0
+
+  resedit@2.0.3:
+    dependencies:
+      pe-library: 1.0.1
+
+  retry@0.12.0: {}
+
+  semver@7.8.5: {}
+
+  shebang-command@2.0.0:
+    dependencies:
+      shebang-regex: 3.0.0
+
+  shebang-regex@3.0.0: {}
+
+  sumchecker@3.0.1:
+    dependencies:
+      debug: 4.4.3
+    transitivePeerDependencies:
+      - supports-color
+
+  undici-types@7.18.2: {}
+
+  undici@7.29.0:
+    optional: true
+
+  which@2.0.2:
+    dependencies:
+      isexe: 2.0.0
+
+  xmlbuilder@15.1.1: {}
+
+  yargs-parser@22.0.0: {}
