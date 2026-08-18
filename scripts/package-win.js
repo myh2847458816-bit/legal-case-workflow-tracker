@@ -1,5 +1,6 @@
 const { packager } = require('@electron/packager');
 const packageMetadata = require('../package.json');
+const electronChecksums = require('electron/checksums.json');
 
 const PACKAGER_IGNORE = [
   /^\/(?:dist|releases|tests|node_modules|previews|docs|\.git|\.github)(?:$|\/)/,
@@ -23,6 +24,7 @@ packager({
   icon: 'assets/icon.ico',
   ignore: PACKAGER_IGNORE,
   electronVersion: packageMetadata.devDependencies.electron,
+  download: { checksums: electronChecksums },
   appVersion: packageMetadata.version,
   win32metadata: {
     CompanyName: '法律案件流程台账',

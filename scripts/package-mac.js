@@ -3,6 +3,7 @@ const childProcess = require('node:child_process');
 const fs = require('node:fs');
 const path = require('node:path');
 const packageMetadata = require('../package.json');
+const electronChecksums = require('electron/checksums.json');
 
 const PACKAGER_IGNORE = [
   /^\/(?:dist|releases|tests|node_modules|previews|docs|\.git|\.github)(?:$|\/)/,
@@ -50,6 +51,7 @@ async function main() {
     appCategoryType: 'public.app-category.productivity',
     extendInfo: 'assets/mac-info.plist',
     electronVersion: packageMetadata.devDependencies.electron,
+    download: { checksums: electronChecksums },
     appVersion: packageMetadata.version
   });
 
